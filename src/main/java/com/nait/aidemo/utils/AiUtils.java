@@ -60,7 +60,7 @@ public class AiUtils {
     }
     public static String correction(String text){
         // 初始化一个AipNlp
-        AipNlp client = new AipNlp(APP_ID, API_KEY, SECRET_KEY);
+        AipNlp client = new AipNlp(APP_ID_NLP, API_KEY_NLP, SECRET_KEY_NLP);
         // 传入可选参数调用接口
         HashMap<String, Object> options10 = new HashMap<String, Object>();
 
