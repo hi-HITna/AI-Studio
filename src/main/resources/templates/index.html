@@ -87,8 +87,8 @@
                         text:this.nlp_input
                     }
                 }).then(res=>{
-                    this.nlp_output = res.data;
-                    console.log(res.data);
+                    this.nlp_output = res.data.item.correct_query;
+                    console.log(res.data.item.correct_query);
                 })
             }
         }
